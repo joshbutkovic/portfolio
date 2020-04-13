@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+.button {
+    transition: all 0.15s ease-in-out;
+    &.is-primary:hover {
+        background-color: darken($color: $forest-green, $amount: 15);
+    }
+    &.is-info:hover {
+        background-color: darken($color: $purple, $amount: 15);
+    }
+}

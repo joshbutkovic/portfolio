@@ -1,0 +1,176 @@
+@import '../../../styles/colors.scss';
+.navbar-brand a.navbar-item:hover {
+    background-color: transparent;
+}
+.hero {
+    .hero-container {
+        background-color: rgba(41, 41, 48, 0.6);
+    }
+    .navbar {
+        .container {
+            #navbarMenuHero {
+                @media screen and (max-width: 1266px) and (min-width: 769px) {
+                    margin-left: 1rem;
+                }
+            }
+            .navbar-brand {
+                color: $white;
+                line-height: 1.5;
+                padding: 0.75rem 0rem;
+                position: relative;
+                transition: color 0.15s ease-in-out;
+                a.navbar-item:hover {
+                    color: $frog-green;
+                }
+                &:hover {
+                    cursor: pointer;
+                    color: $frog-green;
+                }
+            }
+            .navbar-menu {
+                .navbar-start {
+                    //@media screen and (min-width: 1024px) {
+                    //    margin: 0 auto;
+                    //}
+                    .navbar-item {
+                        color: $white;
+                        transition: all 0.15s ease-in-out;
+                        font-size: 14px;
+                        font-weight: 600;
+                        //justify-content: space-evenly;
+                        @media screen and (max-width: 768px) {
+                            padding: 0.5rem 0 0.5rem 0.5rem;
+                        }
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 10%;
+                            right: 10%;
+                            width: 80%;
+                            height: 3px;
+                            transform: scaleX(0);
+                            background-color: $frog-green;
+                            transition: transform 0.15s;
+                            top: 35px;
+                        }
+                        &:hover:not(.navbar-logo),
+                        &:hover:not(.navbar-logo),
+                        &:active:not(.navbar-logo),
+                        &.is-active:not(.navbar-logo) {
+                            background-color: transparent;
+                            &:after {
+                                @media screen and (min-width: 1024px) {
+                                    transform: scaleX(0);
+                                }
+                            }
+                        }
+                        &:focus,
+                        &:focus-within {
+                            background-color: transparent;
+                            transition: none;
+                        }
+                    }
+                }
+                .navbar-end .navbar-item {
+                    @media screen and (min-width: 1024px) {
+                        display: flex;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .hero-body {
+        padding: 1rem 1rem 3rem;
+        .banner-intro {
+            display: flex;
+            flex-direction: row;
+            @media screen and (max-width: 768px) {
+                justify-content: center;
+            }
+            .banner-intro-container {
+                display: flex;
+                @media screen and (max-width: 768px) {
+                    flex-direction: column;
+                }
+            }
+            .josh-github {
+                border-radius: 4px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            }
+        }
+        .banner-intro-copy-container {
+            margin-left: 1rem;
+            padding-top: 0.4rem;
+            p.title {
+                color: #f0f0f0;
+                font-size: 2.5rem;
+                //text-align: center;
+            }
+            p.subtitle {
+                color: #f0f0f0;
+                //text-align: center;
+                svg {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    margin-left: 0.5rem;
+                    padding-top: 0.35rem;
+                }
+            }
+        }
+        .contact-button {
+            //display: flex;
+            //justify-content: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 256px;
+
+            @media screen and (max-width: 768px) {
+                display: flex;
+                justify-content: center;
+                flex-direction: unset;
+                max-width: unset;
+            }
+
+            svg {
+                height: 1rem;
+                width: 1rem;
+                margin-left: 0.25rem !important;
+            }
+            a {
+                font-size: 1.125rem;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            }
+        }
+        figure.image {
+            @media screen and (max-width: 768px) {
+                margin: 0 auto;
+            }
+        }
+        .contact-josh-container {
+            display: flex;
+            justify-content: flex-end;
+            @media screen and (max-width: 768px) {
+                display: block;
+                justify-content: unset;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &:hover,
+        &:focus {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

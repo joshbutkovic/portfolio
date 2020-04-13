@@ -1,0 +1,39 @@
+{
+    "name": "joshbutkovic.github.io",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://joshbutkovic.github.io/portfolio",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d .next",
+        "export": "next export"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.26",
+        "@fortawesome/free-brands-svg-icons": "^5.13.0",
+        "@fortawesome/free-solid-svg-icons": "^5.12.0",
+        "@fortawesome/react-fontawesome": "^0.1.8",
+        "@zeit/next-sass": "^1.0.1",
+        "bulma": "^0.8.0",
+        "express": "^4.17.1",
+        "next": "9.3.2",
+        "next-images": "^1.2.0",
+        "path": "^0.12.7",
+        "react": "16.12.0",
+        "react-dom": "16.12.0",
+        "react-scroll-up-button": "^1.6.4",
+        "swr": "^0.2.0"
+    },
+    "proxy": "http://localhost:8000",
+    "devDependencies": {
+        "@types/next": "^9.0.0",
+        "@types/node": "^12.12.21",
+        "@types/react": "^16.9.17",
+        "node-sass": "^4.13.0",
+        "prettier": "^2.0.4",
+        "typescript": "^3.7.4"
+    }
+}
