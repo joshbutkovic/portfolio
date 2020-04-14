@@ -1,12 +1,27 @@
-.mission.hero {
+.mission.hero.card {
+    margin-bottom: 1rem;
     .hero-body {
         padding: 2rem 1.5rem;
         p.mission-statement {
             font-size: 0.95rem;
             text-align: justify;
+            color: #141414;
         }
         .mission-container {
             width: auto;
+        }
+
+        svg {
+            width: 1.125rem;
+            height: 1.125rem;
+        }
+        .image-container {
+            width: 84px;
+            display: flex;
+            alignItems: center;
+            @media only screen and (max-width: 768px) {
+                width: auto;
+            }
         }
     }
     .mission-image {
@@ -17,8 +32,6 @@
         @media only screen and (max-width: 786px) {
             margin: 0 auto;
             display: flex;
-            //min-height: 150px;
-            //min-width: 114px;
             width: 72px;
         }
     }
