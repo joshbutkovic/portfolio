@@ -43,7 +43,7 @@ function Resource() {
                     <div className="columns is-mobile is-multiline">
                         {links.map((item, index) => {
                             return (
-                                <div className="column has-text-centered" key={index}>
+                                <div className="column has-text-centered item-column" key={index}>
                                     <div className="item-container">
                                         <div className="item">
                                             <a rel="noreferrer" className="item-link" href={item.href} target="_blank">

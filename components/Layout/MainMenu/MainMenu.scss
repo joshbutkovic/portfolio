@@ -9,6 +9,12 @@
     .navbar {
         .container {
             #navbarMenuHero {
+                & > div.navbar-start {
+                    display: flex;
+                    @media screen and (max-width: 768px) {
+                        justify-content: center;
+                    }
+                }
                 @media screen and (max-width: 1266px) and (min-width: 769px) {
                     margin-left: 1rem;
                 }
@@ -28,6 +34,9 @@
                 }
             }
             .navbar-menu {
+                &.is-active {
+                    background-color: transparent;
+                }
                 .navbar-start {
                     .navbar-item {
                         color: $white;
@@ -35,7 +44,7 @@
                         font-size: 14px;
                         font-weight: 600;
                         @media screen and (max-width: 768px) {
-                            padding: 0.5rem 0 0.5rem 0.5rem;
+                            padding: 0rem 1rem 1rem;
                         }
                         &::after {
                             content: '';
@@ -87,7 +96,7 @@
             }
             .banner-intro-container {
                 display: flex;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 480px) {
                     flex-direction: column;
                 }
             }
@@ -152,9 +161,8 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
     .navbar-menu.is-active {
-        background-color: transparent;
         display: flex;
         justify-content: center;
         text-align: center;

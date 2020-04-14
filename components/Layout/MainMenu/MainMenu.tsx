@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import './MainMenu.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import Resource from '../../Resource/Resource';
 
 interface MainMenuProps {
     title: string;
@@ -95,6 +96,12 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div
+                            className="column"
+                            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                        >
+                            <Resource />
                         </div>
                     </div>
                 </div>
