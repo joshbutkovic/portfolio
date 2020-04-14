@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import './MainMenu.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
@@ -13,10 +12,6 @@ interface MainMenuProps {
 
 const mainMenuBgImage = `${require('../../../public/images/hero.jpg')}`;
 
-const navStyle = {
-    background: 'linear-gradient(45deg, rgba(41,41,48,0.6) 0%, rgba(41,41,48,1) 100%)',
-};
-
 const mainMenuStyle = {
     backgroundImage: `url(${mainMenuBgImage})`,
     width: '100%',
@@ -28,8 +23,6 @@ const mainMenuStyle = {
 function MainMenu({ title, subtitle }: MainMenuProps) {
     const [hamburgerActive, setHamburgerActive] = useState<boolean>(false);
     const [projectsText, setProjectsText] = useState<string>('Projects');
-    const router = useRouter();
-    const small = router.route !== '/';
 
     const handleInProgressLinkClick = (e: React.MouseEvent, type) => {
         setProjectsText('Coming Soon');
@@ -110,15 +103,12 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
     };
 
     return (
-        <section
-            className={`hero is-small${small ? 'is-small' : 'is-large'}`}
-            style={!small ? mainMenuStyle : navStyle}
-        >
+        <section className={`hero is-small`} style={mainMenuStyle}>
             <div className="hero-container">
                 <div className="hero-head">
                     <nav className="navbar">{renderBrand()}</nav>
                 </div>
-                {!small && renderHeroBody()}
+                {renderHeroBody()}
             </div>
         </section>
     );
