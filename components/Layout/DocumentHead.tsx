@@ -10,7 +10,7 @@ const DocumentHead: React.FC<DocumentHeadProps> = ({ title }) => {
         <Head>
             <title>{title}</title>
             <meta name="description" content="Real Food Table" />
-            <meta name="og:title" property="og:title" content="A bowl of health"></meta>
+            <meta name="og:title" property="og:title" content="Josh Butkovic's Online Portfolio"></meta>
             <meta charSet="utf-8" key="charSet" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
             <meta name="robots" content="index, follow"></meta>
