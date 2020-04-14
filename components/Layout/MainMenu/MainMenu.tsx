@@ -82,6 +82,7 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                             <div className="banner-intro-container">
                                 <figure className="image is-96x96">
                                     <img
+                                        alt="Josh Github"
                                         className="josh-github"
                                         src={require('../../../public/images/josh_github.jpeg')}
                                     />

@@ -13,9 +13,12 @@
                 min-height: auto;
             }
             .card-content {
+                ul li {
+                    color: #141414;
+                }
                 h4 {
                     font-weight: lighter !important;
-                    color: #292930;
+                    color: #141414;
                     margin-bottom: 0.75rem;
                     svg {
                         vertical-align: middle;
