@@ -5,10 +5,10 @@ function Footer() {
     return (
         <footer className="footer is-dark">
             <div className="content has-text-centered">
-                <p className="is-italic">joshbutkovic.github.io</p>
+                <p className="is-italic">{new Date().getFullYear()} joshbutkovic.com</p>
             </div>
         </footer>
     );
-};
+}
 
 export default Footer;
