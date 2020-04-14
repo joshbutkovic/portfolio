@@ -10,7 +10,7 @@ class Portfolio extends App {
         const { Component, pageProps } = this.props;
         return (
             <>
-                <DocumentHead title="Josh Butkovic's Portfolio" />
+                <DocumentHead title="Josh Butkovic's Online Portfolio" />
                 <MainMenu title="Josh Butkovic" subtitle="Full Stack Web Developer" />
                 <Component {...pageProps} />
                 <Footer />

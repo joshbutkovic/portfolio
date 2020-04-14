@@ -19,12 +19,16 @@ function Mission({ title, children }: MissionProps) {
                             style={{ width: 'auto', display: 'flex', alignItems: 'center' }}
                         >
                             <figure className="image">
-                                <img className="mission-image" src={require('../../public/images/josh-charlie.jpg')} />
+                                <img
+                                    alt="Josh and Charlie"
+                                    className="mission-image"
+                                    src={require('../../public/images/josh-charlie.jpg')}
+                                />
                             </figure>
                         </div>
                         <div className="column">
                             <h1 className={h1Classes}>{title}</h1>
-                            <p className="is-size-6">{children}</p>
+                            <p className="is-size-6 mission-statement">{children}</p>
                         </div>
                     </div>
                 </div>

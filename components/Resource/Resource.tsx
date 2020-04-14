@@ -41,12 +41,12 @@ function Resource() {
             <div className="hero-body">
                 <div className="container">
                     <div className="columns is-mobile is-multiline">
-                        {links.map((item) => {
+                        {links.map((item, index) => {
                             return (
-                                <div className="column has-text-centered">
+                                <div className="column has-text-centered" key={index}>
                                     <div className="item-container">
                                         <div className="item">
-                                            <a className="item-link" href={item.href} target="_blank">
+                                            <a rel="noreferrer" className="item-link" href={item.href} target="_blank">
                                                 <h4 className={h4Classes}>{item.title}</h4>
                                                 {item.icon}
                                             </a>
