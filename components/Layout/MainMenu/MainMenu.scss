@@ -29,19 +29,15 @@
             }
             .navbar-menu {
                 .navbar-start {
-                    //@media screen and (min-width: 1024px) {
-                    //    margin: 0 auto;
-                    //}
                     .navbar-item {
                         color: $white;
                         transition: all 0.15s ease-in-out;
                         font-size: 14px;
                         font-weight: 600;
-                        //justify-content: space-evenly;
                         @media screen and (max-width: 768px) {
                             padding: 0.5rem 0 0.5rem 0.5rem;
                         }
-                        &:after {
+                        &::after {
                             content: '';
                             position: absolute;
                             bottom: 0;
@@ -59,9 +55,9 @@
                         &:active:not(.navbar-logo),
                         &.is-active:not(.navbar-logo) {
                             background-color: transparent;
-                            &:after {
+                            &::after {
                                 @media screen and (min-width: 1024px) {
-                                    transform: scaleX(0);
+                                    transform: scaleX(1);
                                 }
                             }
                         }
@@ -106,11 +102,9 @@
             p.title {
                 color: #f0f0f0;
                 font-size: 2.5rem;
-                //text-align: center;
             }
             p.subtitle {
                 color: #f0f0f0;
-                //text-align: center;
                 svg {
                     height: 1.5rem;
                     width: 1.5rem;
@@ -120,8 +114,6 @@
             }
         }
         .contact-button {
-            //display: flex;
-            //justify-content: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -166,11 +158,5 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        &:hover,
-        &:focus {
-            &::after {
-                display: none;
-            }
-        }
     }
 }

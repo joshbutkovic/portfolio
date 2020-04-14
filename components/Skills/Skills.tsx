@@ -18,7 +18,7 @@ function Skills({ title }: SkillsProps) {
     const h1Classes = 'title is-size-4 is-capitalized has-text-weight-semibold has-text-centered-mobile';
     const h4Classes = 'is-size-6 is-capitalized has-text-weight-semibold has-text-centered-mobile';
     const cardColumnClasses = 'column is-4-desktop is-6-tablet has-text-centered';
-    const languages: Array<string> = ['JavaScript', 'Java', 'Python', 'PHP'];
+    const languages: Array<string> = ['JavaScript (TS)', 'Java', 'Python', 'PHP'];
     const frontEndTech: Array<string> = ['React', 'Vue', 'Bulma', 'SASS/LESS', 'Flexbox', 'jQuery'];
     const frameworks = ['AEM', 'Django', 'Express', 'Laravel', 'Spring Boot', 'Wordpress'];
     const database: Array<string> = ['PostgreSQL', 'MSSQL', 'MySQL', 'SQLite', 'GraphQL', 'Rest'];
@@ -27,7 +27,7 @@ function Skills({ title }: SkillsProps) {
 
     const cardList: Array<CardListItem> = [
         {
-            label: 'Languages',
+            label: 'Programming Languages',
             icon: faCode,
             items: languages,
         },
@@ -37,7 +37,7 @@ function Skills({ title }: SkillsProps) {
             items: frontEndTech,
         },
         {
-            label: 'Frameworks',
+            label: 'Web Frameworks',
             icon: faServer,
             items: frameworks,
         },
