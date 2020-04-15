@@ -15,7 +15,7 @@ const ProfessionalExperience: NextPage = () => {
                     </h2>
                 </div>
                 <div className="columns">
-                    <p style={{ marginBottom: '2rem', textAlign: 'justify', padding: '1rem' }}>
+                    <p className="experience-intro-text">
                         During my professional career I've worked on many exciting projects from animation and front-end
                         to back-end business logic based applications. Without revealing proprietary information, here
                         are some high level details.
