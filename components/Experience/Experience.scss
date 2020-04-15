@@ -1,0 +1,21 @@
+section.hero.experience.card {
+    .body {
+        padding: 1rem;
+    }
+    padding: 1rem;
+    margin-bottom: 1.125rem;
+    .media .media-content .content {
+        h4.experience-title {
+            margin-bottom: 0.5rem;
+        }
+        p.experience-tech {
+            margin-bottom: 0.5rem;
+            .tag:not(body).is-info {
+                margin-right: 0.25rem;
+            }
+        }
+        p {
+            color: #141414;
+        }
+    }
+}

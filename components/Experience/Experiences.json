@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "AEM Development with React",
+        "tech": ["React", "Java", "AEM 6.5", "Typescript", "JCR", "Sling", "Maven", "HTL", "NPM"],
+        "description": "For my recent role, I developed Adobe Experience Manager (AEM) components and templates for corporate web application over 52 locations using React, Java, and AEM.  In this project we used HTL to render the base node which react would then mount to.  We used sling data models ans Content Fragments to store and extract the data and send to React as props.  I also helped to optimize performance, decrease the bundle, and decrease the load time of pages significantly"
+    },
+    {
+        "id": "2",
+        "title": "AEM Target Component Development",
+        "tech": ["JavaScript (ES5)", "HTML5", "CSS3"],
+        "description": "Marketing needed Vanilla JS components including countdown clocks and other promo oriented UI elements that needed to be injected by Target.  Using heavy Vanilla JS in other roles really prepared me well for this task.  I built a several solutions in Vanilla JS and the promos were record setting for Black Friday."
+    },
+    {
+        "id": "3",
+        "title": "AEM Development with HTL Templates",
+        "tech": ["JavaScript (ES6)", "Java", "AEM 6.3", "JCR", "Sling", "Maven", "HTL", "Gulp"],
+        "description": "Developed Adobe Experience Manager (AEM) components for the Corporate and Acquiustions web applications using Java and JavaScript.  This is where I cut my teeth on AEM 6.3  I learned many lessons about how to store large datasets properly."
+    },
+    {
+        "id": "4",
+        "title": "GlobalView Mapbox.js Development",
+        "tech": ["JavaScript (ES6)", "Vue", "Mapbox.js", "Node", "MSSQL", "NPM", "Vuex"],
+        "description": "Created GlobalView which displayed live company transactions over an interactive US map.  This project was displayed prominently in the lobby of the company.  I used Node and Vue to supplement Mapbox.js.  The daily transactions where displayed similarly to missle strikes on a US map.  Periodiclly it would take a flight path that traveled to top US cities to show the transactions at a granular level.  I also tied into an MSSQL datastore to grab the company transaction data."
+    },
+    {
+        "id": "5",
+        "title": "Intranet Application development with Laravel PHP",
+        "tech": ["JavaScript (ES6)", "Blade Templates", "MySQL", "NPM", "Composer"],
+        "description": "Developed several internal business applications using the Laravel PHP framework including a user administration and authentication system, Request intake system, and a custom CMS to manage the terms and conditions.  Marketing was so pleased with the product that they were about to get Finance, Customer Service, and Digital to all use the same platform.  A colleague and myself held several training sessions and created a user guides for each application."
+    },
+    {
+        "id": "6",
+        "title": "Intranet Application development with Node and Express",
+        "tech": ["JavaScript (ES6)", "React", "PostgresSQL", "Node", "Express", "NPM", "Redux"],
+        "description": "Developed several internal business applications that utilized a React SPA and Node.js REST API with Express.  This included an executive dashboard that displayed critical and was used by the entire executive team.  Held stakeholder meetings with executives to get all the details 100% correct.  Another React/Node project that I worked on was a tool to manage customer data to provide a streamlined process across departments."
+    },
+    {
+        "id": "7",
+        "title": "Intranet Applications with VB.net",
+        "tech": ["JavaScript (ES5)", "Visual Studio", "VB.Net", "T-SQL", "Zurb Foundation Framework"],
+        "description": "Developed accounting, finance, and customer service applications using .Net and MSSQL for the internal team.  Worked directly with the stakeholders top resolve issues quickly.  Also completed an entire re-write of the front-end to make the entire intranet responsive using a Zurb's Foundation framework."
+    },
+    {
+        "id": "8",
+        "title": "Inventory Management System with Java Spring Boot",
+        "tech": [
+            "Spring Boot",
+            "Java",
+            "PostgresSQL",
+            "Bulma",
+            "JavaScript(ES6)"
+        ],
+        "description": "Developed an inventory management system that consumed multiple product books.  I used Spring Boot with Thymeleaf, JPA, and PostgresSQL for this freelance project.  For user authentication I was able to tie into the companies ADP service.  I was able to complete this system and hand off the final product to internal developers.  This application helped automate many previous spreadsheet and manually entry tasks that were performed previously."
+    }
+]
