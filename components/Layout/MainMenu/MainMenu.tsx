@@ -40,12 +40,20 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                 <div id="navbarMenuHero" className={`navbar-menu ${hamburgerActive ? ' is-active' : ''}`}>
                     <div className="navbar-start">
                         <Link href="/">
-                            <a className="navbar-item is-uppercase" title="Home">
+                            <a
+                                className="navbar-item is-uppercase"
+                                title="Home"
+                                onClick={() => setHamburgerActive(!hamburgerActive)}
+                            >
                                 Home
                             </a>
                         </Link>
                         <Link href="/professional-experience">
-                            <a className="navbar-item is-uppercase" title="ProfessionalExperience">
+                            <a
+                                className="navbar-item is-uppercase"
+                                title="ProfessionalExperience"
+                                onClick={() => setHamburgerActive(!hamburgerActive)}
+                            >
                                 Experience
                             </a>
                         </Link>
