@@ -1,4 +1,7 @@
 section.hero.experience.card {
+    @media screen and (max-width: 768px) {
+        margin-bottom: 1.75rem;
+    }
     .body {
         padding: 1rem;
     }
@@ -17,6 +20,17 @@ section.hero.experience.card {
         p {
             color: #141414;
             text-align: justify;
+            //@media screen and (max-width: 768px) {
+            //    padding: 1rem;
+            //}
         }
+    }
+}
+
+p.experience-intro-text {
+    margin-bottom: 1.75rem;
+    text-align: justify;
+    @media screen and (max-width: 768px) {
+        padding: 1rem;
     }
 }

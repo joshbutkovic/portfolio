@@ -1,40 +1,41 @@
 [
     {
         "id": "1",
-        "title": "AEM Development with React and Java",
+        "title": "AEM Development using React with Typescript and Java",
         "tech": ["React", "Java", "AEM 6.5", "Typescript", "JCR", "Sling", "Maven", "HTL", "NPM"],
         "description": "For my recent role, I developed Adobe Experience Manager (AEM) components and templates for the corporate web application over 52 locations using React, Java, and AEM.  I used HTL to render the base node which React would then mount to.  I used sling data models and Content Fragments to store and extract the data and send to React as props.  I also helped to optimize performance, decrease the bundle, and decrease the load time of pages significantly"
     },
     {
         "id": "2",
-        "title": "AEM Target Component Development",
-        "tech": ["JavaScript (ES5)", "HTML5", "CSS3"],
-        "description": "Necessary components included countdown clocks and other promotional UI elements that needed to be injected by Adobe Target.  Using Vanilla JS in other roles prepared me well for this task.  I built several solutions in Vanilla JS and the promotions were record-setting for Black Friday."
+        "title": "Mapbox.js Development",
+        "tech": ["JavaScript (ES6)", "Vue", "Mapbox.js", "Node", "MSSQL", "NPM", "Vuex"],
+        "description": "Developed a map application that displayed company transactions over an interactive US map.  This project was displayed prominently in the lobby of the company.  I used Node and Vue to supplement Mapbox.js.  The daily transactions were displayed similar to missle strikes on a US map.  The node application utilized a scheduled task that would fetch new transaction data from the data warehouse. Periodically it would take a flight path that traveled to top US cities to show the transactions at a granular level.  I also tied into an MSSQL datastore to grab the company transaction data."
     },
     {
         "id": "3",
-        "title": "AEM Development with HTL Templates",
-        "tech": ["JavaScript (ES6)", "Java", "AEM 6.3", "JCR", "Sling", "Maven", "HTL", "Gulp"],
-        "description": "Developed Adobe Experience Manager (AEM) components for the Corporate and Acquiustions web applications using Java and JavaScript.  This is where I cut my teeth on AEM 6.3  I learned many lessons about datastorage and AEM functionality"
-    },
-    {
-        "id": "4",
-        "title": "GlobalView Mapbox.js Development",
-        "tech": ["JavaScript (ES6)", "Vue", "Mapbox.js", "Node", "MSSQL", "NPM", "Vuex"],
-        "description": "Created GlobalView which displayed live company transactions over an interactive US map.  This project was displayed prominently in the lobby of the company.  I used Node and Vue to supplement Mapbox.js.  The daily transactions were displayed similar to missle strikes on a US map.  Periodically it would take a flight path that traveled to top US cities to show the transactions at a granular level.  I also tied into an MSSQL datastore to grab the company transaction data."
-    },
-    {
-        "id": "5",
-        "title": "Intranet Application development with Laravel PHP",
-        "tech": ["JavaScript (ES6)", "Blade Templates", "MySQL", "NPM", "Composer"],
+        "title": "Intranet Applications with Laravel PHP",
+        "tech": ["JavaScript(ES6)", "Blade Templates", "MySQL", "NPM", "Composer"],
         "description": "Developed several internal business applications using the Laravel PHP framework including a user administration and authentication system, Request intake system, and a custom CMS to manage the terms and conditions.  Marketing was so pleased with the product that they encouraged Finance, Customer Service, and Digital to use the same platform.  I held several training sessions and created user guides for each application."
     },
     {
-        "id": "6",
-        "title": "Intranet Application development with Node and Express",
-        "tech": ["JavaScript (ES6)", "React", "PostgresSQL", "Node", "Express", "NPM", "Redux"],
+        "id": "4",
+        "title": "Intranet Applications with Node and Express",
+        "tech": ["JavaScript(ES6)", "React", "PostgresSQL", "Node", "Express", "NPM", "Redux"],
         "description": "Developed several internal business applications that utilized a React SPA and a Node.js REST API with Express.  This included an executive dashboard that displayed critical information and was used by the entire executive team.  I held stakeholder meetings with executives to get all the details correct.  I worked on another React/Node project that was a tool to manage customer data to provide a streamlined process across departments."
     },
+    {
+        "id": "5",
+        "title": "AEM Target Component Development with JavaScript",
+        "tech": ["JavaScript (ES5)", "HTML5", "CSS3"],
+        "description": "Necessary components included countdown clocks and other promotional UI elements that needed to be injected by an Adobe Target Activity.  Using Vanilla JS in other roles prepared me well for this task.  I built several solutions in Vanilla JS and the promotions were record-setting for Black Friday."
+    },
+    {
+        "id": "6",
+        "title": "AEM Development with JavaScript(ES5) and Java",
+        "tech": ["JavaScript (ES5)", "Java", "AEM 6.3", "JCR", "Sling", "Maven", "HTL", "Gulp"],
+        "description": "Developed Adobe Experience Manager (AEM) components for the Corporate and Acquiustions web applications using Java and JavaScript.  This is where I cut my teeth on AEM 6.3  I learned many lessons about datastorage and AEM functionality"
+    },
+
     {
         "id": "7",
         "title": "Intranet Applications with VB.Net",
@@ -43,14 +44,8 @@
     },
     {
         "id": "8",
-        "title": "Inventory Management System with Java Spring Boot",
-        "tech": [
-            "Spring Boot",
-            "Java",
-            "PostgresSQL",
-            "Bulma",
-            "JavaScript(ES6)"
-        ],
-        "description": "Developed an inventory management system that consumed multiple product books.  I used Spring Boot with Thymeleaf, JPA, and PostgresSQL for this freelance project.  For user authentication I was able to tie into the companies ADP service.  I completed this system and handed it off to internal devlopers.  This application helped automate manual spreadhseet entry tasks that were previoulsy perfomed."
+        "title": "Inventory Management Application with Java Spring Boot",
+        "tech": ["Spring Boot", "Java", "PostgresSQL", "JPA", "Thymeleaf", "Bulma", "JavaScript(ES6)"],
+        "description": "Developed an inventory management system that consolidated several product books.  I used Spring Boot with Thymeleaf, JPA, and PostgresSQL for this freelance project.  For user authentication I was able to tie into the companies ADP service.  I completed this system and handed it off to internal devlopers.  This application helped automate manual spreadhseet entry tasks that were previoulsy perfomed."
     }
 ]
