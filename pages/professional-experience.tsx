@@ -15,7 +15,7 @@ const ProfessionalExperience: NextPage = () => {
                     </h2>
                 </div>
                 <div className="columns">
-                    <p style={{ marginBottom: '2rem' }}>
+                    <p style={{ marginBottom: '2rem', textAlign: 'justify' }}>
                         During my professional career I've had some very eclectic experiences from animation and
                         front-end to back-end business logic heavy applications. Without revealing proprietary
                         information, here are some high level details about projects I've worked on.
