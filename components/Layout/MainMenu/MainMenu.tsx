@@ -22,14 +22,6 @@ const mainMenuStyle = {
 
 function MainMenu({ title, subtitle }: MainMenuProps) {
     const [hamburgerActive, setHamburgerActive] = useState<boolean>(false);
-    const [projectsText, setProjectsText] = useState<string>('Projects');
-
-    const handleInProgressLinkClick = (e: React.MouseEvent, type) => {
-        setProjectsText('Coming Soon');
-        setTimeout(() => {
-            setProjectsText('Projects');
-        }, 1500);
-    };
 
     const renderBrand = (): JSX.Element => {
         return (
@@ -52,13 +44,9 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                                 Home
                             </a>
                         </Link>
-                        <Link href="#">
-                            <a
-                                onClick={(e) => handleInProgressLinkClick(e, 'projects')}
-                                className="navbar-item is-uppercase"
-                                title="Projects"
-                            >
-                                {projectsText}
+                        <Link href="/professional-experience">
+                            <a className="navbar-item is-uppercase" title="ProfessionalExperience">
+                                Experience
                             </a>
                         </Link>
                     </div>
@@ -85,7 +73,7 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                                     <p className="title has-text-centered-mobile">{title}</p>
                                     <p className="subtitle has-text-centered-mobile is-italic">
                                         {subtitle}
-                                        <FontAwesomeIcon className="icon is-small" icon={faLaptopCode} />
+                                        <FontAwesomeIcon className="icon is-small" color="white" icon={faLaptopCode} />
                                     </p>
                                 </div>
                             </div>

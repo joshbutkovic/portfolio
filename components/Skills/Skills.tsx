@@ -65,7 +65,7 @@ function Skills({ title }: SkillsProps) {
                     <div className="card">
                         <div className="card-content">
                             <h4 className={h4Classes}>
-                                <FontAwesomeIcon className="icon is-small" icon={cardListItem.icon} />
+                                <FontAwesomeIcon color="white" className="icon is-small" icon={cardListItem.icon} />
                                 &nbsp;
                                 {cardListItem.label}
                             </h4>

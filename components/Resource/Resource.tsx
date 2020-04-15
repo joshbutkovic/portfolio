@@ -17,22 +17,22 @@ function Resource() {
         {
             href: '/pdfs/JoshuaButkovicResume.pdf',
             title: 'Resume',
-            icon: <FontAwesomeIcon className="icon is-medium" icon={faFileAlt} />,
+            icon: <FontAwesomeIcon className="icon is-medium" color="white" icon={faFileAlt} />,
         },
         {
             href: 'https://github.com/joshbutkovic',
             title: 'Github',
-            icon: <FontAwesomeIcon className="icon is-medium" icon={faGithub} />,
+            icon: <FontAwesomeIcon className="icon is-medium" color="white" icon={faGithub} />,
         },
         {
             href: 'https://www.linkedin.com/in/josh-butkovic-3097384b/',
             title: 'Linkedin',
-            icon: <FontAwesomeIcon className="icon is-medium" icon={faLinkedin} />,
+            icon: <FontAwesomeIcon className="icon is-medium" color="white" icon={faLinkedin} />,
         },
         {
             href: 'mailto:joshbutkovic@gmail.com',
             title: 'Email',
-            icon: <FontAwesomeIcon className="icon is-medium" icon={faEnvelope} />,
+            icon: <FontAwesomeIcon className="icon is-medium" color="white" icon={faEnvelope} />,
         },
     ];
 
