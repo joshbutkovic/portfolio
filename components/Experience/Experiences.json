@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "title": "AEM Development with React",
+        "title": "AEM Development with React and Java",
         "tech": ["React", "Java", "AEM 6.5", "Typescript", "JCR", "Sling", "Maven", "HTL", "NPM"],
         "description": "For my recent role, I developed Adobe Experience Manager (AEM) components and templates for corporate web application over 52 locations using React, Java, and AEM.  In this project we used HTL to render the base node which react would then mount to.  We used sling data models ans Content Fragments to store and extract the data and send to React as props.  I also helped to optimize performance, decrease the bundle, and decrease the load time of pages significantly"
     },
@@ -37,9 +37,9 @@
     },
     {
         "id": "7",
-        "title": "Intranet Applications with VB.net",
+        "title": "Intranet Applications with VB.Net",
         "tech": ["JavaScript (ES5)", "Visual Studio", "VB.Net", "T-SQL", "Zurb Foundation Framework"],
-        "description": "Developed accounting, finance, and customer service applications using .Net and MSSQL for the internal team.  Worked directly with the stakeholders top resolve issues quickly.  Also completed an entire re-write of the front-end to make the entire intranet responsive using a Zurb's Foundation framework."
+        "description": "Developed accounting, finance, and customer service applications using VB.Net and MSSQL for the internal team.  All the database transactions were called using stored procedures.  Worked directly with the stakeholders top resolve issues quickly.  Also completed an entire re-write of the front-end to make the entire intranet responsive using a Zurb's Foundation framework."
     },
     {
         "id": "8",
