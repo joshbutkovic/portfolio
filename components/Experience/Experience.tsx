@@ -1,13 +1,17 @@
 import React, { useEffect } from 'react';
+import Link from 'next/link';
 import './Experience.scss';
 
 interface ExperienceProps {
     title: string;
     tech: Array<string>;
     description: string;
+    isProject?: boolean;
+    link?: string;
+    linkTitle?: string;
 }
 
-function Experience({ title, tech, description }: ExperienceProps) {
+function Experience({ title, tech, description, isProject, link, linkTitle }: ExperienceProps) {
     return (
         <section className="hero experience card">
             <div className="body">
@@ -28,6 +32,13 @@ function Experience({ title, tech, description }: ExperienceProps) {
                                             })}
                                     </p>
                                     <p>{description}</p>
+                                    {isProject && (
+                                        <Link href={link}>
+                                            <a className="is-small is-link" title={linkTitle} target="_blank">
+                                                {linkTitle} Live Demo
+                                            </a>
+                                        </Link>
+                                    )}
                                 </div>
                             </div>
                         </article>
