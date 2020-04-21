@@ -3,7 +3,7 @@
         "id": "1",
         "title": "AEM Development using React with Typescript and Java",
         "tech": ["React", "Java", "AEM 6.5", "Typescript", "JCR", "Sling", "Maven", "HTL", "NPM"],
-        "description": "For my recent role, I developed Adobe Experience Manager (AEM) components and templates for the corporate web application over 52 locations using React, Java, and AEM.  I used HTL to render the base node which React would then mount to.  I used sling data models and Content Fragments to store and extract the data and send to React as props.  I also helped to optimize performance, decrease the bundle, and decrease the load time of pages significantly"
+        "description": "For my recent role, I developed Adobe Experience Manager (AEM) components and templates for the corporate web application over 52 locations using React, Java, and AEM.  I used HTL to render the base node which React would then mount to.  I used sling data models and Content Fragments to store and extract the data and send to React as props.  I also helped to optimize performance, decrease the bundle, and decrease the load time of pages significantly."
     },
     {
         "id": "2",
@@ -33,9 +33,8 @@
         "id": "6",
         "title": "AEM Development with JavaScript(ES5) and Java",
         "tech": ["JavaScript (ES5)", "Java", "AEM 6.3", "JCR", "Sling", "Maven", "HTL", "Gulp"],
-        "description": "Developed Adobe Experience Manager (AEM) components for the Corporate and Acquiustions web applications using Java and JavaScript.  This is where I cut my teeth on AEM 6.3  I learned many lessons about datastorage and AEM functionality"
+        "description": "Developed Adobe Experience Manager (AEM) components for the Corporate and Acquiustions web applications using Java and JavaScript.  This is where I cut my teeth on AEM 6.3  I learned many lessons about datastorage and AEM functionality."
     },
-
     {
         "id": "7",
         "title": "Intranet Applications with VB.Net",
