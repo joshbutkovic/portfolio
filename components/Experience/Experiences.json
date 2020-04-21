@@ -45,7 +45,7 @@
     {
         "id": "8",
         "title": "Inventory Management Application with Java Spring Boot",
-        "tech": ["Spring Boot", "Java", "PostgresSQL", "JPA", "Thymeleaf", "Bulma", "JavaScript(ES6)"],
+        "tech": ["Spring Boot", "Java", "PostgresSQL", "JPA", "Thymeleaf", "Bootstrap", "JavaScript(ES6)"],
         "description": "Developed an inventory management system that consolidated several product books.  I used Spring Boot with Thymeleaf, JPA, and PostgresSQL for this freelance project.  For user authentication I was able to tie into the companies ADP service.  I completed this system and handed it off to internal devlopers.  This application helped automate manual spreadhseet entry tasks that were previoulsy perfomed."
     }
 ]
