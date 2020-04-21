@@ -57,6 +57,15 @@ function MainMenu({ title, subtitle }: MainMenuProps) {
                                 Experience
                             </a>
                         </Link>
+                        <Link href="/projects">
+                            <a
+                                className="navbar-item is-uppercase"
+                                title="Projects"
+                                onClick={() => setHamburgerActive(!hamburgerActive)}
+                            >
+                                Projects
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

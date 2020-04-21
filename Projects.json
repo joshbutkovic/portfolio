@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "title": "WeatherView",
+        "tech": ["React", "Redux", "Axios", "Pose", "SPA", "Bulma", "CRA"],
+        "description": "A neat little React app built with the Openweather API. You can search locations by name or zipcode and render the current weather or a forecast of the weather.  I use a React Easy Chart (A library based on D3.js) to render the charts.  The app was built as a SPA with smooth route transitions.  I created a small example of Redux for state management.",
+        "link": "//joshbutkovic.github.io/weather-view/",
+        "linkTitle": "Weather View"
+    },
+    {
+        "id": "2",
+        "title": "Vue Sample App",
+        "tech": ["JavaScript (ES6)", "Vue", "Vuex", "Vue Router", "Bulma", "Vue Cli"],
+        "description": "This application was built to demonstrate some of the core features of Vue such as the router, Vuex, animations, and more. On the benefits view you can filter by searching which will reveal a unique animation.  This app was built as a SPA.",
+        "link": "//joshbutkovic.github.io/vue-sample-app/",
+        "linkTitle": "Vue Sample App"
+    }
+]
