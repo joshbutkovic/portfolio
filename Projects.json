@@ -14,5 +14,13 @@
         "description": "Vue Sample App was built to demonstrate some of the core features of a Vue SPA such as the router, Vuex, animations, and more. Click the benefits navigation link and you can filter the cards which will fade in and out with a shuffle animation.",
         "link": "//joshbutkovic.github.io/vue-sample-app/",
         "linkTitle": "Vue Sample App"
+    },
+    {
+        "id": "3",
+        "title": "Quick Budget",
+        "tech": ["React", "Next.js", "Apollo Client", "Typescript", "Nest.js", "GraphQL", "MongoDB"],
+        "description": "Quick budget is a lightning fast Budget app with Next.js on the front-end and Nest.js on the backend.  It uses a GraphQL schema to manage the business logic full with JWT authentication.  This app will be free to use and allow users to register and store their budget information.",
+        "link": "",
+        "linkTitle": ""
     }
 ]
