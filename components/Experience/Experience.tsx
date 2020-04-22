@@ -32,13 +32,14 @@ function Experience({ title, tech, description, isProject, link, linkTitle }: Ex
                                             })}
                                     </p>
                                     <p>{description}</p>
-                                    {isProject && (
+                                    {isProject && link && (
                                         <Link href={link}>
-                                            <a className="is-small is-link" title={linkTitle} target="_blank">
+                                            <a className="is-small" title={linkTitle} target="_blank">
                                                 {linkTitle} Live Demo
                                             </a>
                                         </Link>
                                     )}
+                                    {isProject && !link && <p className="is-small has-text-info">Coming Soon</p>}
                                 </div>
                             </div>
                         </article>
