@@ -19,7 +19,7 @@
         "id": "3",
         "title": "Quick Budget",
         "tech": ["React", "Next.js", "Apollo Client", "Typescript", "Nest.js", "GraphQL", "MongoDB"],
-        "description": "Quick budget is a lightning fast Budget app with Next.js on the front-end and Nest.js on the backend.  It uses a GraphQL schema to manage the business logic full with JWT authentication.  This app will be free to use and allow users to register and store their budget information.",
+        "description": "Quick Budget is a lightning fast budget app with Next.js on the front-end and Nest.js on the backend.  It uses a GraphQL to transport data with JWT authentication.  This app will be free to use and allow users to register and store their budget information.",
         "link": "",
         "linkTitle": ""
     }
