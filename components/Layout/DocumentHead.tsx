@@ -9,7 +9,10 @@ const DocumentHead: React.FC<DocumentHeadProps> = ({ title }) => {
     return (
         <Head>
             <title>{title}</title>
-            <meta name="description" content="Josh Butkovic's Online Portfolio" />
+            <meta
+                name="description"
+                content="Josh Butkovic's Online Portfolio featuring Josh's skills, professional experience, and personal projects."
+            />
             <meta name="og:title" property="og:title" content="Josh Butkovic's Online Portfolio"></meta>
             <meta charSet="utf-8" key="charSet" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
